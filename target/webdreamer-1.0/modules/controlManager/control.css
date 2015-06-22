@@ -1,0 +1,120 @@
+/*******************************************************************************
+ *     Web Dreamer
+ *     Copyright (c) Huawei Technologies Co., Ltd. 1998-2014. All Rights Reserved.
+ *
+ *     Licensed under the Apache License, Version 2.0 (the "License");
+ *     you may not use this file except in compliance with the License.
+ *     You may obtain a copy of the License at
+ *
+ *          http://www.apache.org/licenses/LICENSE-2.0
+ *
+ *     Unless required by applicable law or agreed to in writing, software
+ *     distributed under the License is distributed on an "AS IS" BASIS,
+ *     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ *     See the License for the specific language governing permissions and
+ *     limitations under the License.
+ *******************************************************************************/
+.control_item {
+	width: 56px;
+	float: left;
+	height: 56px;
+	margin: 0px 5px 0px 4px;
+	position: relative;
+	top: 4px;
+	cursor: pointer;
+}
+
+.control_item_all {
+	width: 56px;
+	float: left;
+	height: 56px;
+	margin: 0px 5px 0px 4px;
+	position: relative;
+	top: 4px;
+	cursor: pointer;
+}
+
+.control_item_all:hover {
+	background: url(images/controlbg.png) 0px -54px;
+	background-size: 56px 55px;
+}
+
+.control_item:hover {
+	background: url(images/controlbg.png) 0px -54px;
+	background-size: 56px 55px;
+}
+
+.control_item_img {
+	position: absolute;
+	left: 3px;
+	top: 3px;
+	width: 50px;
+}
+
+.control_show_all_panel {
+	position: absolute;
+	z-index: 10;
+	width: 850px;
+	height: 600px;
+	background-color: #ffffff;
+	padding: 10px;
+	border: 3px solid #6B6868;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
+	display: none;
+}
+
+.control_show_all_panel_head {
+	width: 870px;
+	left: 0px;
+	border-bottom: 2px dotted #000;
+	position: absolute;
+}
+
+.control_show_all_panel_close_btn {
+	width: 22px;
+	height: 22px;
+	background: url(images/close.png) no-repeat;
+	background-size: 22px 22px;
+	cursor: pointer;
+}
+
+.control_group_tab_container {
+	position: absolute;
+	width: 870px;
+	height: 30px;
+	background: #747474;
+	top: 40px;
+	left: 0px;
+}
+
+.control_group_tab {
+	float: left;
+	width: 96px;
+	height: 28px;
+	text-align: center;
+	color: #F9F9F9;
+	font-size: 13px;
+	line-height: 30px;
+	border: 1px rgba(215, 208, 208, 0.32) dashed;
+	top: 3px;
+	cursor: pointer;
+}
+
+.control_group_tab:hover {
+	background: rgba(33, 169, 228, 0.55);
+}
+
+.control_group_tab.selected {
+	background: #009EFF;
+}
+
+.control_list_container {
+	position: absolute;
+	width: 866px;
+	height: 510px;
+	border: 1px #494848 dashed;
+	top: 70px;
+	left: 1px;
+}

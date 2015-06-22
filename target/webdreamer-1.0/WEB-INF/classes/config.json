@@ -1,0 +1,6 @@
+{
+"username": "username",
+"password": "password",
+"url": "http://api.run.pivotal.io",
+"space": "dev"
+}

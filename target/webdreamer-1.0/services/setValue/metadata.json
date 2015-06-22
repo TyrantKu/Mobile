@@ -1,0 +1,33 @@
+{
+    "outputParameterType" : "none",
+    "icon" : "setValue.png",
+    "methodType" : "GET",
+    "type" : "System",
+    "url" : "",
+    "serviceName" : "setValue",
+    "createdBy" : "SYSTEM",
+    "isPrivate" : false,
+    "createdAt" : "2014-11-17 15:43:03",
+    "description" : "",
+    "parameterList" : [{
+        "alias" : "value",
+        "name" : "value",
+        "type" : "object"
+    }],
+    "outputParameterFormat" : "",
+    "parameterFormatType" : "",
+    
+    "isJsApi": true,
+    "jsApiInfo":{
+		"jsFileName": "setValue.js",
+		"className": "",
+		"functionName": "setValue",
+		"params": ["value"],
+		"hasCallback": false,
+        "result": {
+            "return": true,
+            "type": "json",
+            "format": "{}"
+        }
+    }
+}
